@@ -1,0 +1,42 @@
+#titulo{
+    color: gray;
+}
+
+.fonte-grande{
+    font-size: 40px;
+}
+
+.minusculas{
+    text-transform: lowercase;
+}
+
+#honda{
+    color: darkred;
+}
+
+#chevrolet{
+    color: darkgoldenrod;
+}
+
+#volkswagen{
+    color: darkblue;
+}
+
+.logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.carros-honda{
+    color: red;
+}
+
+.carros-chevrolet{
+    color: goldenrod;
+} 
+
+.carros-volkswagen{
+    color: blue;
+}
+
