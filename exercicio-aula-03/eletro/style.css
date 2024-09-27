@@ -1,0 +1,22 @@
+body{
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: crimson;
+}
+div{
+    background-color: darkslategrey;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color: rgb(147, 236, 111);
+    font-weight: 800;
+}

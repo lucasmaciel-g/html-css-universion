@@ -1,0 +1,31 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: green ;
+}
+/* Título da pagina principal */
+h1{
+    text-align: center;
+    text-decoration:overline;
+    text-transform: lowercase; 
+}
+h2{
+    color: coral; 
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    font-size: x-large;
+    font-weight: 700;
+    text-decoration: underline;
+}
+/* links */
+a{
+    text-decoration: none;
+    color: rgb(164, 184, 240);
+    font-size: larger;
+}
+/* Rodapé */
+h5{
+    font-weight: 800;
+    font-style: italic;
+}

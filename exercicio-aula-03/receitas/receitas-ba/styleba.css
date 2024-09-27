@@ -1,0 +1,19 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 228, 245);
+}
+a{
+    text-decoration: none;
+    color: indigo;
+    background-color: rgb(200, 170, 221);
+}
+h1{
+    text-align: right;
+    background-color: rgb(216, 186, 236);
+}
+div{
+    background-color: rgb(149, 121, 168);
+}
+h5{
+    text-align: center;
+}
