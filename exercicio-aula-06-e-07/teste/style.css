@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgba(248, 238, 225, 0.727);
+}
+
+#tituloPrincipal{
+    padding: 20px 0;
+    background-color: rgb(248, 238, 225);
+    text-align: center;
+}
+
+.subtitulos{
+    margin: 20px auto;
+    padding: 10px;
+    border: 3px solid #111;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    width: 200px;
+    box-shadow: 4px 4px 10px 2px #111;
+    background-color: #fff;
+}
+
+.cardPrincipal{
+    background-color: #111;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+    width: 450px;
+    display: inline-block;
+    box-shadow: 4px 4px 4px -1px gray;
+}
+
+.cardPrincipal > h3{
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.cardPrincipal > img{
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.cardPrincipal > p{
+    margin: 5px;
+    color: rgba(250, 235, 215, 0.724);
+}
+
+#rodape{
+    background-color: rgb(248, 238, 225);
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
