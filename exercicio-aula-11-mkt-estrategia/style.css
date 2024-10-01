@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    border: 1px solid #6011b9;
+    width: 52%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho > a{
+    background-color: #6011b9;
+    color: #fff;
+    display: block;
+    padding: 9px;
+    text-align: center;
+}
+
+.logoCabecalho{
+    width: 180px;
+    margin: 15px auto;
+    display: block;
+}
+
+.corpoTexto > .bannerTJMG{
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.subTitulo{
+    text-align: center;
+    width: 51%;
+    margin: 0 auto;
+}
+
+.subTitulo > h1{
+    color: #6011b9;
+    font-size: 40px;
+    padding: 0 0 35px 0;
+}
+
+/* Icones */
+
+.iconeCheck{
+    width: 20px;
+    padding: 0 2px 7px 0;
+    vertical-align: middle;
+}
+
+.iconeDart, .iconeHands, .iconeArrow{
+    width: 30px;
+    padding: 0 2px 7px 0;
+    vertical-align: middle;
+}
+
+.iconeStar{
+    width: 20px;
+    padding: 0 2px 7px 0;
+    vertical-align: middle;
+}
+
+.iconeGrinning{
+    width: 27px;
+    padding: 6px 0 7px 0;
+    vertical-align: middle; 
+}
+
+.subTitulo > h2{
+    color: #8e8c8d;
+    font-weight: 200px;
+    display: inline-block;
+    padding: 0 0 26px 0;
+}
+
+.textoImpacto{
+    padding: 29px 0 40px 0;
+    font-size: 28px;
+    text-align: center;
+    color: #1759cd;
+}
+
+.conteudoTexto{
+    padding:  0 100px 40px 100px;
+}
+
+.conteudoTexto p{
+    padding: 0 0 40px 0;
+}
+
+.conteudoTexto > .paragrafoIcone{
+    display: inline-block;
+    padding: 0 0 40px 0;
+}
+
+.listagem{
+    padding: 0 0 40px 40px;
+    font-style: italic;
+}
+
+.corpoTexto span{
+    color: #1759cd;
+    font-weight: bold;
+}
+
+.linkWhats{
+    /* text-align: center; */
+    padding: 10px 0 50px 0;
+    /* max-width: 100%; */
+    /* margin: 0 auto; */
+}
+
+.linkWhats > a{
+    color: #fff;
+    font-size: 24px;
+    background-color: #6011b9;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.assinaturaEmail{
+    font-weight: bold;
+}
+
+#rodape{
+    background-color: #6011b9;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.redeSocial a{
+    text-decoration: none;
+}
+
+.logoRodape{
+    width: 180px;
+    margin: 0 auto;
+    padding: 10px 0 20px 0 ;
+    display: block;
+}
+
+.iconeRedeSocial{
+    width: 40px;
+    margin: 5px 7px ;
+}
+
+.avisosRodape{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+#rodape p, a{
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
