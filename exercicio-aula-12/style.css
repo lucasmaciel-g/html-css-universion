@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listaOrdenada{
+    list-style-type: georgian;
+}
+
+.listaOrdenada ul{
+    list-style: none inside;
+    list-style-image: url("./device-mobile-camera.svg");
+}
