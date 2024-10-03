@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(to top left, blue, green);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 30px;   
+
+}
+
+span{
+    background-image: linear-gradient(to top right, rgb(254, 105, 12), rgb(128, 77, 0));
+    background-clip: text;
+    color: transparent;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cabelho, .rodape{
+    background-color: blanchedalmond;
+    height: 10vh;
+    text-align: center;
+}
+
+.cabelho a{
+    display: inline-block;
+    padding: 25px;
+    margin: 1px 0;
+    /* margin: 0 auto; */
+}
+
+a{
+    text-decoration: none;
+    transition: .5s;
+}
+
+a:hover{
+    background-color: #d8b362;
+    border-radius: 15px;
+}
+
+.corpoTexto{
+    height: 100vh;
+    background-image: url(img/pexels-olly-937690.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.corpoTexto h1{
+    background: -webkit-linear-gradient(80deg,#5d6372,#3b3b33,#d8b362 60%);
+    background: linear-gradient(80deg,#5d6372,#3b3b33,#d8b362 60%);
+    background-clip: text;
+    color: transparent; 
+    font-size: 100px;
+    padding: 100px;
+    text-align: center;
+}
+
+.rodape{
+    background-image: url(./img/circle-dashed-svgrepo-com.svg);
+    background-size: 10px
+
+}
