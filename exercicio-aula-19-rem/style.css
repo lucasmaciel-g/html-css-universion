@@ -1,0 +1,29 @@
+p{
+    background-color: lightgreen;
+}
+
+a{
+    background-color: lightsalmon;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* px ignora preferência do usuário */
+
+h1.px{
+    font-size: 20px;
+}
+
+.px{
+    font-size: 20px;
+    padding: 16px 32px;
+}
+
+/* rem é unidade relativa ao 
+html
+seguindo a preferência do usuário */
+
+.rem{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
