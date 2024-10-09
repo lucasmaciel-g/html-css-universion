@@ -1,0 +1,38 @@
+@font-face {
+    font-family: icones;
+    src: url(../font/icones.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    /* display: flex; */
+}
+
+i{
+    font-family: icones;
+    font-style: normal;
+}
+
+li{
+    display: inline-block;
+    /* max-width: fit-content; */
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(19, 91, 91);
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
