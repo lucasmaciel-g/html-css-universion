@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #333;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+
+#cabecalho{
+    background-color: #333;
+    padding: 20px;
+    box-shadow: 0 1px 2px 2px #808080;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+#menu{
+    margin: 20px 0 0 0;
+}
+
+#menu > a{
+    color: #fff;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#menu > a:hover{
+    background-color: #555;
+}
+
+#cabecalho > h1{
+    font-size: 40px;
+}
+
+#cabecalho > h2{
+    font-size: 19px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+
+#identificacaoDev{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#identificacaoDev > h2{
+    font-size: 32px;
+}
+
+/* Main */
+
+#main{
+    padding: 0 40px;
+    margin: 0 0 200px 0;
+}
+
+/* Sobre mim */
+
+.cardPrincipal{
+    margin: 20px 0;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+.cardPrincipal > h3, .cardPrincipal > p{
+    margin: 0 0 20px 0;
+}
+
+.devs > p, .cardPrincipal > p{
+    color: #777;
+}
+
+.cardPrincipal > h3{
+    font-size: 24px;
+}
+
+/* Meus projetos */
+
+.cardSecundario{
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cardSecundario > h4{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.cardSecundario > p{
+    margin: 16px 0;
+}
+
+.cardSecundario > a{
+    font-weight: bold;
+}
+
+.cards_devs{
+    text-align: center;
+}
+
+.devs{
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    text-align: center;
+    margin: 20px;
+}
+
+.devs > img{
+    border: 4px solid #777;   
+    border-radius: 50%;
+    max-width: 50%;
+}
+
+.devs > h3{
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.devs > p{
+    margin: 0 0 15px 0;
+}
+
+.linkPerfildev{
+    color:#fff;
+    background-color: #333;
+    padding: 10px 20px;
+    display: inline-block; 
+    border-radius: 5px;
+    transition: .3s;   
+}
+
+.linkPerfildev:hover{
+    background-color: #555;
+}
+
+/* Rodapé */
+
+#rodape{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #333;
+    /* color: orange; */
+}
+
+#rodape > p, #rodape > a{
+    color: #fff;
+    font-weight: 400;
+}
+
+#rodape > a{
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
