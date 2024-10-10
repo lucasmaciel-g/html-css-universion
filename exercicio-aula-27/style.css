@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #eee;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 10px;
+    max-width: 1300px;
+}
+
+.logo{
+    display: flex;
+    max-width: 200px;
+}
+
+.logo img{
+    border-radius: 50%;
+    border: 3px solid #1D4DA9;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-self: center;
+    gap: 30px;
+}
+
+.btn_primario{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1D4DA9;
+    transition: .5s;
+    padding: 10px 20px;
+    border: 2px solid #1D4DA9;
+    border-radius: 8px;
+}
+
+.btn_primario:hover{
+    background-color: #1D4DA9;
+    color: #eee;
+    box-shadow: 4px 4px 4px 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.apresentacao{
+    justify-content: center;
+    min-height: calc(100vh - 335px);
+}
+
+.apresentacao, .flexbox{
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    padding: 30px 40px;
+    gap: 50px;
+}
+
+.apresentacao{
+    padding-bottom: 5px;
+}
+
+.apresentacao h1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    align-self: center;
+}
+
+.apresentacao h2{
+    font-size: 1.4rem;
+}
+
+.apresentacao p, .flexbox p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.seta_rolagem{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao svg{
+    align-self: flex-end;
+}
+
+.flexbox{
+display: flex;
+justify-content: center;
+border: 2px solid #1D4DA9;
+border-radius: 8px;
+background-color: #f4f4f4;
+}
+
+.flexbox h3{
+    font-size: 2rem;
+    color: #1D4DA9;
+    letter-spacing: 1px;
+}
+
+.flexbox figure{
+    align-self: center;
+}
+
+.flexbox img{
+    border-radius: 8px;
+    border: 3px solid #FFA810;
+}
+
+.flexbox_video{
+    align-self: center;
+    width: 80%;
+    aspect-ratio: 15.9/9;
+    overflow: hidden;
+    border: 3px solid #FFA810;
+    border-radius: 8px;
+}
+
+.flexbox_video iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.btn_flexfroggy{
+    color: #43A047;
+    font-size: 2rem;
+    align-self: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.btn_flexfroggy:hover{
+    background-color: #43A047;
+    color: #f4f4f4;
+}
+
+footer{
+    background-color: #eee;
+    justify-content: center;
+    display: flex;
+    padding: 30px 40px;
+    width: 100%;
+}
