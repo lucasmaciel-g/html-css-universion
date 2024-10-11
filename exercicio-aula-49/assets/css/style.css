@@ -1,0 +1,35 @@
+/* GLOBAL */
+
+/* Global */
+@import "./global/global.css";
+
+/* Ícones */
+@import "./global/icones.css";
+
+/* Cabeçalho */
+@import "./global/cabecalho.css";
+
+/* Menu lateral*/
+@import "./global/menu_lateral.css";
+
+/* COMPONENTES */
+
+/* Seção */
+@import "./componentes/secao.css";
+
+/* Cards */
+@import "./componentes/cards.css";
+
+/* Lista conteudo */
+@import "./componentes/lista_conteudo.css";
+
+/* Botões */
+@import "./componentes/botao.css";
+
+/* HOME */
+
+/* Hero (seção) */
+@import "./home/hero.css";
+
+/* Videos mais vistos (seção) */
+@import "./home/videos_mais_vistos.css";
