@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+h1, h2, h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.cabecalho_bg, .principal_bg, .equipe_bg{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1; /* Esse flex-item vai ter o seu tamanho aumentado caso sobre espaço no elemento pai */
+    flex-basis: 0;  /* Os irmãos desse flex-item vão fazer de tudo pra ter o mesmo tamanho */
+    flex-wrap: wrap;
+    padding: 1.25rem 1.875rem;
+    max-width: 1200px;
+}
+
+.cabecalho_logo{
+    max-width: 12.5rem;
+}
+
+.cabecalho_nav{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cabecalho_menu a{
+    color: #777;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0.9375rem 0.625rem;
+    display: inline-block;
+    transition: .4s;
+}
+
+.cabecalho_menu a:hover{
+    color: #1A374D;
+    font-weight: bold;
+}
+
+.menu_botaoTerciario{
+    padding: 0.625rem 2rem;
+    border: #008C87 solid 1px;
+    border-radius: 8px;
+    color: #008C87;
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    transition: .5s;
+}
+
+.menu_botaoTerciario:hover{
+    background-color: #008C8720;
+}
+.principal_bg{
+    height: calc(90vh - 5.2775rem);
+}
+
+.principal, .equipe, .video, .migracao, .sucesso{
+    display: flex;
+    flex-grow: 1; /* Esse flex-item vai ter o seu tamanho aumentado caso sobre espaço no elemento pai */
+    flex-basis: 0; /* Os irmãos desse flex-item vão fazer de tudo pra ter o mesmo tamanho */
+    max-width: 1200px;
+    padding: 1.875rem;
+    gap: 120px;
+}
+
+.principal_imagem1{
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Esse flex-item vai ter o seu tamanho aumentado caso sobre espaço no elemento pai */
+    flex-basis: 0; /* Os irmãos desse flex-item vão fazer de tudo pra ter o mesmo tamanho */
+}
+
+.principal_imagem1  img{
+    max-width: 100%;
+}
+
+.principal_projetos, .equipe_texto, .video, .video_texto, .migracao, .migracao_texto, .sucesso{
+    display: flex;
+    flex-grow: 1; /* Esse flex-item vai ter o seu tamanho aumentado caso sobre espaço no elemento pai */
+    flex-basis: 0; /* Os irmãos desse flex-item vão fazer de tudo pra ter o mesmo tamanho */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.principal_projetos h1, .equipe_texto h2, .video_texto h2, .migracao_texto h2, .sucesso h2{
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: #008C87;
+    line-height: 1.1;
+}
+
+.principal_projetos h1{
+    max-width: 10ch;
+}
+
+.principal_projetos p, .equipe_texto p, .video_texto p, .migracao_texto p{
+    color: #222;
+    line-height: 2;
+    font-size: 1.25rem;
+    max-width: 45ch;
+}
+
+.principal_menu{
+    display: flex;
+    gap: 3.125rem;
+}
+
+.menu_botaoPrimario, .menu_botaoSecundario, .menu_botaoQuaternario{
+    padding: 12px 35px 12px 34px;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    transition: .5s;
+}
+
+.menu_botaoPrimario, .menu_botaoQuaternario{
+    background-color: #008C87;
+    color: #F4FAFA;
+}
+
+.menu_botaoPrimario:hover{
+    background-color: #1a1a1a;
+}
+
+.menu_botaoSecundario{
+    background-color: #E5E5E5;
+    color: #060606;
+}
+
+.menu_botaoSecundario:hover{
+    background-color: #c4c4c4;
+}
+
+.equipe_bg{
+    background-color: #f2f2f2;
+    min-height: 90vh;
+    padding: 3.4375rem 0;
+}
+
+.equipe_texto h2{
+    max-width: 15ch;
+    font-size: 3rem;
+}
+
+.equipe_texto p{
+    max-width: 45ch;
+    font-size: 1.25rem;
+}
+
+.equipe_integrantes{
+    display: flex;
+    flex-grow: 1; /* Esse flex-item vai ter o seu tamanho aumentado caso sobre espaço no elemento pai */
+    flex-basis: 0; /* Os irmãos desse flex-item vão fazer de tudo pra ter o mesmo tamanho */
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.integrantes_id{
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+    padding: 0.9375rem 1.875rem;
+    border-bottom: 0.0625rem solid #999;
+}
+
+.equipe_integrantes img{
+    width: 4.56rem;
+    border: 0.3125rem solid #008C87;
+    border-radius: 50%;
+}
+
+.integrante_nomeCargo{
+    display: inline-block;
+}
+
+.integrante_nomeCargo h3{
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+
+.equipe_integrantes p{
+    font-style: italic;
+    color: #222;
+}
+
+.video_bg, .migracao_bg{
+    min-height: 90vh;
+    background-image: linear-gradient(to bottom, #F2F2F2 50%, #008C87 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video, .video_texto, .sucesso{
+    align-items: center;
+    text-align: center;
+}
+
+.video_texto{
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.video_texto h2, .migracao_texto h2, .controle_texto h2{
+    font-size: 2.75rem;
+}
+
+.video_texto p{
+    max-width: 100%;
+    color: #555;
+}
+
+.video_player{
+    width: 70%;
+    aspect-ratio: 15.8/9;
+    border-radius: 10px;
+    border: 10px solid #0e1e2a;
+    overflow: hidden;
+    background-color: #0e1e2a;
+}
+
+.video_player iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.menu_botaoQuaternario{
+    border: 3px solid #F4FAFA;
+    background-color: #f4fafa18;
+    transition: .5s;
+
+}
+
+.menu_botaoQuaternario:hover{
+    background-color: transparent;
+}
+
+.migracao_bg{
+    background: #008C87;
+    min-height: 100vh;
+    padding: 3.4375rem 0;
+
+}
+
+.migracao{
+    align-items: center;
+    gap: 78px;
+}
+
+.migracao_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;  
+}
+
+.migracao_texto h2, .migracao_texto p, .migracao_card p{
+    color: #f2f2f2;
+    line-height: 1.3;
+}
+
+.migracao_texto p{
+    max-width: 100%;
+}
+
+.migracao_baralho{
+    display: flex;
+    gap: 40px;
+}
+
+.migracao_card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: #0606065e;
+    color: #F2F2F2;
+    padding: 32px 32px 64px 32px;
+    flex-grow: 1;
+    flex-basis: 0;
+    gap: 30px;
+}
+
+.migracao_icone{
+    border-radius: 8px;
+    background-color: #008C87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+}
+
+.migracao_icone img{
+    max-width: 100%;
+}
+
+.migracao_card h3{
+    font-size: 1.25rem;
+}
+
+.migracao_card p, .controle p{
+    font-size: 1.125rem;
+    line-height: 1.4;
+}
+
+.sucesso_bg{
+    padding: 80px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9FFFE;
+}
+
+.sucesso{
+    gap: 60px;
+    padding: 0;
+}
+
+.sucesso h2{
+    font-weight: 400;
+    color: #21323f;
+    font-size: 3.5rem;
+}
+
+.sucesso .menu_botaoPrimario{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.controle_bg{
+    background-color: #FFF;
+    display: flex;
+}
+
+.controle_img{
+    background-image: url(../img/6-controle-total.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+/* Caso use uma img diretamente no html, usar com essas propriedades de css */
+
+/* .controle_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.controle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    background-color: #FFF;
+    gap: 30px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.controle_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.controle_texto h2{
+    font-size: 2.4rem;
+    line-height: 1.1;
+    color: #333;
+}
+
+.controle_texto p{
+    font-size: 1.125rem;
+    line-height: 1.4;
+}
+
+.controle_baralho{
+    display: flex;
+    gap: 40px;
+}
+
+.controle_card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    flex: 1;
+}
+
+.controle_card h3{
+    color: #333;
+    font-size: 1.5rem;  
+}
+
+.controle_card p{
+    font-size: 1rem;
+    color: #333;
+}
+
+.controle .menu_botaoPrimario{
+    align-self: flex-start;
+}
