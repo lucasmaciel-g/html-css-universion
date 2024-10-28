@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+    padding: 52px 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Configurações de cabeçalho */
+
+header{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: start;
+    margin-bottom: 32px;
+}
+
+.card_periodo{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 100px;
+    align-items: center;
+}
+
+.card_periodoTexto{
+    display: grid;
+    gap: .5rem;
+}
+
+.card_periodoTexto p{
+    opacity: 0.72;
+}
+
+/* Configuração da parte central */
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.card{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.card_cabecalho{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+
+.card_progresso{
+    display: grid;
+    gap: .5rem;
+}
+
+.progresso_porcentagem{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.card_informacao{
+    display: grid;
+    gap: 1rem;
+}
+
+.formacao_formato, .formacao_tutor{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: .5rem;
+}
+
+.card_identificacao{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    gap: .5rem;
+}
+
+.card_cabecalho h2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 18ch;
+    font-weight: 600;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    color: #121212;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.card_periodoTexto h4{
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.card_periodo{
+    background-color: #ECECEC;
+    border: 1px solid #ECECEC;
+    padding: 10px;
+    border-radius: 6px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.card_periodo:hover{
+    border: 1px solid #424242;
+}
+
+p, span{
+    font-size: 1rem;
+    color: #121212;
+    line-height: 1;
+}
+
+.card{
+    padding: 1.5rem;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 24px;
+}
+
+.btn_primario{
+    background-color: #144BC8;
+    border-radius: 50%;
+    padding: 0.75rem;
+    width: 48px;
+    height: 48px;
+    transition: .4s;
+    justify-self: end;
+    display: grid;
+    place-content: center;
+}
+
+.btn_primario:hover{
+    background-color: #144ac86c;
+}
+
+#icone_seta{
+    max-width: 100%;
+    fill: #FFFFFF;
+    transition: .4s;
+}
+
+.btn_primario:hover #icone_seta{
+    fill: #144BC8;
+}
+
+.card_barra{
+    height: 4px;
+    border-radius: 8px;
+}
+
+.percent100{
+    background-color: #424242;
+}
+
+.percent0{
+    background-color: #42424229;
+}
+
+.card_identificacao span{
+    background-color: #E0E0E0;
+    color: #121212;
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+}
