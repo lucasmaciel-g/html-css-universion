@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cabecalho_bg{
+    background-color: #1D1E20;
+    margin-bottom: 40px;
+}
+
+.cabecalho{
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 29.5px;
+}
+
+.link_logo{
+    padding: 10.5px;
+}
+
+.link_logo img{
+    display: block;
+    max-width: 100%;
+}
+
+.menu_cabecalho{
+    display: flex;
+    gap: 10px;
+}
+
+.menu_cabecalho a{
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 10px;
+    display: inline-block;
+}
+
+.secao_produtos{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 20px;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 9px;
+}
+
+.produto h2{
+    font-size: 1.125rem;
+    font-weight: 400;
+}

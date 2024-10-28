@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cabecalho_bg{
+    background-color: #1D1E20;
+    margin-bottom: 40px;
+}
+
+.cabecalho{
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 29.5px;
+}
+
+.link_logo{
+    padding: 10.5px;
+}
+
+.link_logo img{
+    display: block;
+    max-width: 100%;
+}
+
+.menu_cabecalho{
+    display: flex;
+    gap: 10px;
+}
+
+.menu_cabecalho a{
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 10px;
+    display: inline-block;
+}
+
+.principal{
+    display: grid;
+    grid-template:
+        "noticias noticias noticias" auto
+        "propaganda bermudas camisas" auto
+        "propaganda bermudas camisas" auto
+        "propaganda bermudas camisas" auto
+    / 227px 227px 227px;
+    justify-content: center;
+    justify-items: start;
+    gap: 20px;
+}
+
+.principal_noticias{
+    display: flex;
+    gap: 20px;
+    grid-area: noticias;
+}
+
+.noticia{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.noticia h2{
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.propaganda{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    grid-area: propaganda;
+}
+
+.propaganda h2{
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.produtos_bermudas, .produtos_camisas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 42px;
+}
+
+.produtos_bermudas{
+    grid-area: bermudas;
+}
+
+.produtos_camisas{
+    grid-area: camisas;
+}
+
+.produtos_link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.produtos_link h3{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
