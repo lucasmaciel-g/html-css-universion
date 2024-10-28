@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template:
+    "menu cabecalho cabecalho cabecalho" auto
+    "menu conteudo conteudo conteudo" 1fr
+    "menu rodape rodape rodape" auto
+    / auto 1fr 1fr 1fr
+    ;
+}
+
+header{
+    background-color: green;
+    height: 20vh;
+    grid-area: cabecalho;
+}
+
+aside{
+    background-color: black;
+    height: 100vh;
+    width: 200px;
+    grid-area: menu;
+}
+
+main{
+    background-color: aqua;
+    height: 60vh;
+    grid-area: conteudo;
+}
+
+footer{
+    background-color: red;
+    height: 20vh;
+    grid-area: rodape;
+}
