@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    justify-items: start;
+    align-items: start;
+}
+
+h1, p{
+    margin: 0;
+}
+
+.titulo{
+    font-size: 3rem;
+    line-height: 1;
+    grid-column: 1 / -1;
+}
+
+.preco, .descricao, .comprar{
+    font-size: 1.25rem;
+}
+
+.preco{
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+    grid-column: 2;
+}
+
+.grid img{
+    max-width: 100%;
+    border-radius: 4px;
+    grid-row: 2 / 5;
+}
+
+.comprar{
+    background-color: rgb(0, 47, 118);
+    color: rgb(228, 243, 255);
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 113, 212);
+    text-decoration: none;
+    grid-column: 2;
+}
